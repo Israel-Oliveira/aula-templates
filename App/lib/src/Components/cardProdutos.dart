@@ -5,7 +5,7 @@ class CardProduto extends StatefulWidget {
   final String nome, imagem, categoria;
   final double valor, desconto, avaiacoes;
 
-  CardProduto({
+  const CardProduto({
     super.key,
     required this.id,
     required this.nome,
