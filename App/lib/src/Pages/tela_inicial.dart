@@ -65,7 +65,8 @@ class _TelaInicialState extends State<TelaInicial> {
           categoria: produto.categoria,
           valor: produto.valor,
           desconto: produto.desconto,
-          avaiacoes: produto.avaliacoes),
+          avaiacoes: produto.avaliacoes
+          ),
     );
   }
 }
