@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:aula_template/src/Pages/tela_inicial.dart';
+import 'package:aula_template/src/Tabs/tabs.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: "Template Aula",
       theme: ThemeData(primaryColor: Colors.blue.shade100),
-      home: const TelaInicial(),
+      home: Tabs(),
     );
   }
 }
