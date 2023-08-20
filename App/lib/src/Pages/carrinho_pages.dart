@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Components/cardCarrinho.dart';
+
 class CarrinhoPage extends StatefulWidget {
   const CarrinhoPage({super.key});
 
@@ -10,9 +12,15 @@ class CarrinhoPage extends StatefulWidget {
 class _CarrinhoPageState extends State<CarrinhoPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: 
-      Text("Carrinho Page"),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: ListView(
+        padding: EdgeInsets.symmetric(horizontal: 10),
+        scrollDirection: Axis.vertical,
+        children: [
+          CardCarrinho(),
+        ],
+      ),
     );
   }
 }
